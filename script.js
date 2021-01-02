@@ -1,3 +1,6 @@
+//////////////////////////////////////////////////////////////
+//			Shopping List
+//////////////////////////////////////////////////////////////
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
@@ -59,3 +62,28 @@ for (var i = 0; i < li.length; i++){
 
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeypress);
+
+//////////////////////////////////////////////////////////////
+//			Gradient Background
+//////////////////////////////////////////////////////////////
+var color1 = document.querySelector(".color1");
+var color2 = document.querySelector(".color2");
+var body = document.querySelector(".gradientBody");
+
+function setGradient() {
+	body.style.background = 
+	"linear-gradient(to right,"
+	+ color1.value
+	+ ","
+	+ color2.value
+	+ ")";
+}
+
+color1.addEventListener("input", setGradient);
+color2.addEventListener("input", setGradient);
+
+
+
+
+
+
