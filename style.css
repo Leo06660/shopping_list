@@ -57,5 +57,7 @@ p {
 /*Gradient Background*/
 /********************************************/
 .gradient {
-  margin: 0% 0% 55% 45%
+  display: flex;
+  justify-content: center;
+  /*margin: 0% 0% 50% 50%*/
 }
