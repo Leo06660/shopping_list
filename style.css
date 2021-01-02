@@ -1,3 +1,19 @@
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+.centerize {
+  display: grid;
+  justify-items: center;
+
+}
+
+.inlineItem {
+  float: right;
+  margin-left: 10px;
+}
+
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
@@ -20,9 +36,4 @@
 
 .done {
   text-decoration: line-through;
-}
-
-.deleteBtn {
-	position: absolute;
-    left: 200px;
 }

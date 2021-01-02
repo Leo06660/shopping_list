@@ -37,6 +37,8 @@ function createDelButton(){
 	var del_button = document.createElement("button");
 	del_button.appendChild(document.createTextNode("Delete"));
 	del_button.className = "deleteBtn";
+	del_button.classList.add("centerize")
+	del_button.classList.add("inlineItem")
 	del_button.addEventListener("click", deleteElement)
 	return del_button;
 }
